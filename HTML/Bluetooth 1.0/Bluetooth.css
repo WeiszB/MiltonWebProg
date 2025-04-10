@@ -1,0 +1,75 @@
+body {
+	background-color: #D7E4C0;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: #74492C;
+	font-family: 'Spectral';
+	font-size: 15px;
+}
+
+.kep{
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+blockquote{
+	margin-top: 0;
+	
+}
+
+
+h1 {
+	font-size: 17px;
+	font-style: italic;
+	margin-bottom: 0;
+	
+}
+h3 {
+	font-family: 'Allura';
+	font-style: italic;
+	font-size: 50px;
+	margin-bottom: 0;
+	text-decoration: underline dotted;
+	
+}
+
+.divtable {
+	  display: flex;           
+      justify-content: center; /* Középre igazítja vízszintesen */
+      align-items: center;     /* Középre igazítja függőlegesen */
+
+}
+
+table {
+	border: 1px dotted;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+td {
+	padding: 5px;
+	width: 200px;
+    text-align: center;
+}
+
+th {
+	border-bottom: 1px solid;
+}
+
+p img {
+	display: block;   /* A kép blokk szintű elem lesz */
+    float: right;
+}
+
+.blockquotemasodik {
+		font-style: italic;
+}
+
+ul {
+	list-style-type: square;
+}
+
+.romai{
+	list-style-type: upper-roman; 
+}
